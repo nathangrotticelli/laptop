@@ -20,9 +20,6 @@ For Mavericks (10.9): run `sudo xcodebuild -license` and follow the instructions
 to accept the XCode agreement.  Then run `xcode-select --install` in your
 terminal and then click "Install".
 
-2) Set zsh as your login shell:
-
-    chsh -s /bin/zsh
 
 ### Linux
 
@@ -37,7 +34,7 @@ We support:
 
 1) Install zsh and set it as your login shell:
 
-    bash <(wget -qO- https://raw.github.com/thoughtbot/laptop/master/linux-prerequisites)
+    bash <(wget -qO- https://raw.github.com/FullstackAcademy/laptop/master/linux-prerequisites)
 
 Install
 -------
@@ -75,6 +72,7 @@ What it sets up
 * The Silver Searcher for finding things in files
 * Tmux for saving project state and switching between projects
 * Watch for periodically executing a program and displaying the output
+* Node.js and Common Libs like Express, Mongoose
 
 It should take less than 15 minutes to install (depends on your machine).
 
