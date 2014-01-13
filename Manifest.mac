@@ -12,3 +12,5 @@ common-components/ruby-environment
 mac-components/bundler
 mac-components/heroku
 mac-components/rcm
+mac-components/node
+
