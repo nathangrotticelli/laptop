@@ -59,8 +59,8 @@ fancy_echo "Installing Redis, a good key-value database ..."
 fancy_echo "Installing The Silver Searcher (better than ack or grep) to search the contents of files ..."
   brew install the_silver_searcher
 
-fancy_echo "Installing vim from Homebrew to get the latest version ..."
-  brew install vim
+# fancy_echo "Installing vim from Homebrew to get the latest version ..."
+  # brew install vim
 
 fancy_echo "Installing ctags, to index files for vim tab completion of methods, classes, variables ..."
   brew install ctags
@@ -85,13 +85,13 @@ fancy_echo "Installing rbenv, to change Ruby versions ..."
   brew install rbenv
 
   if ! grep -qs "rbenv init" ~/.zshrc; then
-    echo 'eval "$(rbenv init - --no-rehash)"' >> ~/.zshrc
+    echo 'eval "$(rbenv init - --no-rehash)"' >> ~/.bashrc
 
     fancy_echo "Enable shims and autocompletion ..."
       eval "$(rbenv init -)"
   fi
 
-  source ~/.zshrc
+  # source ~/.zshrc
 
 fancy_echo "Installing rbenv-gem-rehash so the shell automatically picks up binaries after installing gems with binaries..."
   brew install rbenv-gem-rehash
